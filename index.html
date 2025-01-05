@@ -64,7 +64,7 @@
             background-color: #4caf50;
             color: white;
         }
-        
+      
         #answerInput {
             padding: 10px;
             font-size: 16px;
@@ -105,12 +105,14 @@
             border: none;
         }
     </style>
+
 </head>
 <body>
+
     <button id="modeToggleButton">Toggle Mode</button>
-    <div class="container" id="gameContainer">
+    <div class="container" id="gameContainer" style="display:none;">
         <h1>scrimantem</h1>
-        <p>Advanced Certamen Questions - All Categories</p>
+        <p>Advanced Certamen Questions - only tossups</p>
         <div id="timer">Time Left: <span id="timeLeft">30</span> seconds</div>
         <div id="question"></div>
         <button id="buzzButton">Buzz!</button>
@@ -134,7 +136,6 @@
         sameelaughs
     </footer>
 
-    <script src="questions.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
