@@ -1,6 +1,4 @@
-// questions.js
-
-const questions = [
+[
     {
         "question": "Who was the first emperor of Rome?",
         "answer": "Augustus"
@@ -21,9 +19,4 @@ const questions = [
         "question": "What structure in Rome was used for gladiatorial contests?",
         "answer": "Colosseum"
     }
-];
-
-// Exporting for external usage if needed
-if (typeof module !== 'undefined' && module.exports) {
-    module.exports = questions;
-}
+]
